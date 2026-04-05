@@ -4,14 +4,19 @@ Olivia Farino: 91264400
 Boglarka Csanadi: 51900580
 
 <h2>How to Run</h2>
-
+<h3>Running Main</h3>
 python3 src/main.py<br> 
 or<br>
 python src/main.py
 
-<h3>Output</h3>
+<h3>Main Output</h3>
 Output is displayed in tests/example.out<br>
 Output is also printed to the console
+
+<h3>Running Tests for Question1</h3>
+python3 -m tests.empirical_comparison<br>
+or<br>
+python -m tests.empirical_comparison
 
 <h2>Questions</h2>
 <h3>Question 1: Empirical Comparison</h3>
