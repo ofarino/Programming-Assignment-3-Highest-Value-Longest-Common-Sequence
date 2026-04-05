@@ -9,6 +9,7 @@ python3 src/main.py or python src/main.py
 
 <h3>Output</h3>
 Output is displayed in tests/example.out
+
 Output is also printed to the console
 
 <h2>Questions</h2>
