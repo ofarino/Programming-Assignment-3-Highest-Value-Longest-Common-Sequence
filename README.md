@@ -18,6 +18,10 @@ python3 -m tests.empirical_comparison<br>
 or<br>
 python -m tests.empirical_comparison
 
+<h3>Other Tests' Output</h3>
+Output is displayed in tests/test.out
+
+
 <h2>Questions</h2>
 <h3>Question 1: Empirical Comparison</h3>
 
