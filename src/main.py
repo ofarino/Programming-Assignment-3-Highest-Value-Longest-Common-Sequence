@@ -37,4 +37,14 @@ def highest_val_longest_common_sequence(str1, str2, values):
     return dp[m][n], ''.join(lcs)
 
 if __name__ == "__main__":
-    print("hi")
+    # print a single integer representing the max value of a common subsequence of A and B
+    values, A, B = read_example_in('./data/example.in')
+    max_value, lcs = highest_val_longest_common_sequence(A, B, values)
+    print(max_value)
+
+    # print one optimal common subsequence that achieves the max value
+    print(lcs)
+
+    with open("./data/example.out", 'w') as file:
+        file.write(str(max_value) + '\n')
+        file.write(lcs + '\n')
