@@ -81,6 +81,19 @@ Output is displayed in tests/test.out
 
 <img width="819" height="237" alt="Screenshot 2026-04-05 at 10 08 01 PM" src="https://github.com/user-attachments/assets/4cb676ac-caa3-4e9d-9b23-3814eab46e9b" />
 
+
+**Explanation of Recurrence:**
+
+
+The base case is correct because if either string A or B has a length of 0, then there is no possibiility of there being a common subsequence as there is at least one string from the two that's non-existent. Additionally, this base case covers the possibility of both strings having a length of 0 since either equation (i = 0 or j = 0) ensures that all cases where either string is non-existent is covered, thus covering the case where both would be 0. 
+
+
+The case where "the current characters match" is correct because, since the characters match you can include them in the subsequence, and any subsequence that uses these current characters must come from the pair (i - 1, j - 1). Therefore, you are building the solution upon smaller subproblems.
+
+
+Lastly, the case where "the current characters do not match" is correct because since the characters don't match, you must either ignore A[i - 1] of B[j - 1] since any valid common subsequence cannot include at least one of these current characters. Therefore, the optimal solution must already exist in one of these two smaller subproblems; the max just makes sure you pick the larger value which will maxmixe the total resulting value.
+
+
 <h3>Question 3: Big-Oh</h3>
 
 <h4>Psuedocode</h4>
