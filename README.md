@@ -26,6 +26,21 @@ Output is displayed in tests/test.out
 <h3>Question 1: Empirical Comparison</h3>
 
 <h3>Question 2: Recurrence Equation</h3>
+Define OPT: OPT(i, j) = length/max value of the longest common subsequence between the first i characters of A and the first j characters of B
+
+Base Case: One of the strings has length 0 (Both equations cover the case of both strings having length 0)
+• OPT(0, j) = 0
+• OPT(i, 0) = 0
+
+Case 1: The current characters match
+• A[i - 1] = B[j - 1]
+• Add the value of the current matching to other matching characters
+
+Case 2: The current characters do not match
+• A[i - 1] != B[j - 1]
+• Ignore the last character of A or the last character of B and keep the HVLCS for the one that is being kept
+
+<img width="819" height="237" alt="Screenshot 2026-04-05 at 10 08 01 PM" src="https://github.com/user-attachments/assets/4cb676ac-caa3-4e9d-9b23-3814eab46e9b" />
 
 <h3>Question 3: Big-Oh</h3>
 
