@@ -26,7 +26,7 @@ Output is displayed in tests/test.out
 <h3>Question 1: Empirical Comparison</h3>
 <ins>Data</ins>
 | File Number | Runtime (in seconds) |
-| ---- | ---- |
+| ----------- | -------------------- |
 | 1 | 0.000091 |
 | 2 | 0.000122 |
 | 3 | 0.000065 |
