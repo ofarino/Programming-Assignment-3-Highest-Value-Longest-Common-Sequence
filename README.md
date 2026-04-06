@@ -24,6 +24,23 @@ Output is displayed in tests/test.out
 
 <h2>Questions</h2>
 <h3>Question 1: Empirical Comparison</h3>
+<ins>Data</ins>
+| File Number | Runtime (in seconds) |
+| ---- | ---- |
+| 1 | 0.000091 |
+| 2 | 0.000122 |
+| 3 | 0.000065 |
+| 4 | 0.000074 |
+| 5 | 0.000099 |
+| 6 | 0.000066 |
+| 7 | 0.000082 |
+| 8 | 0.000072 |
+| 9 | 0.000129 |
+| 10 | 0.000141 |
+
+<ins>Graph</ins>
+<img width="606" height="370" alt="Screenshot 2026-04-05 at 10 40 09 PM" src="https://github.com/user-attachments/assets/f9c09d6c-dc95-4a19-b76a-77a6adbae357" />
+
 
 <h3>Question 2: Recurrence Equation</h3>
 
