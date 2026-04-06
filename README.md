@@ -43,6 +43,8 @@ Output is displayed in tests/test.out
 
 
 **Graph**
+
+
 <img width="606" height="370" alt="Screenshot 2026-04-05 at 10 40 09 PM" src="https://github.com/user-attachments/assets/f9c09d6c-dc95-4a19-b76a-77a6adbae357" />
 
 
