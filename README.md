@@ -24,7 +24,10 @@ Output is displayed in tests/test.out
 
 <h2>Questions</h2>
 <h3>Question 1: Empirical Comparison</h3>
-<ins>Data</ins>
+
+**Data**
+
+
 | File Number | Runtime (in seconds) |
 | ----------- | -------------------- |
 | 1 | 0.000091 |
@@ -38,7 +41,8 @@ Output is displayed in tests/test.out
 | 9 | 0.000129 |
 | 10 | 0.000141 |
 
-<ins>Graph</ins>
+
+**Graph**
 <img width="606" height="370" alt="Screenshot 2026-04-05 at 10 40 09 PM" src="https://github.com/user-attachments/assets/f9c09d6c-dc95-4a19-b76a-77a6adbae357" />
 
 
