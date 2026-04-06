@@ -91,7 +91,7 @@ The base case is correct because if either string A or B has a length of 0, then
 The case where "the current characters match" is correct because, since the characters match you can include them in the subsequence, and any subsequence that uses these current characters must come from the pair (i - 1, j - 1). Therefore, you are building the solution upon smaller subproblems.
 
 
-Lastly, the case where "the current characters do not match" is correct because since the characters don't match, you must either ignore A[i - 1] of B[j - 1] since any valid common subsequence cannot include at least one of these current characters. Therefore, the optimal solution must already exist in one of these two smaller subproblems; the max just makes sure you pick the larger value which will maxmixe the total resulting value.
+Lastly, the case where "the current characters do not match" is correct because since the characters don't match, you must either ignore A[i - 1] or B[j - 1] since any valid common subsequence cannot include at least one of these current characters. Therefore, the optimal solution must already exist in one of these two smaller subproblems; the max just makes sure you pick the larger value which will maxmixe the total resulting value.
 
 
 <h3>Question 3: Big-Oh</h3>
