@@ -7,7 +7,9 @@ Boglarka Csanadi: 51900580
 <h3>Running Main</h3>
 python3 src/main.py<br> 
 or<br>
-python src/main.py
+python src/main.py<br>
+
+Uses tests/example.in<br>
 
 <h3>Main Output</h3>
 Output is displayed in tests/example.out<br>
@@ -16,7 +18,9 @@ Output is also printed to the console
 <h3>Running Tests for Question1</h3>
 python3 -m tests.empirical_comparison<br>
 or<br>
-python -m tests.empirical_comparison
+python -m tests.empirical_comparison<br>
+
+Uses tests/test1.in - tests/test10.in<br>
 
 <h3>Other Tests' Output</h3>
 Output is displayed in tests/test.out
